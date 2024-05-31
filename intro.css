@@ -1,0 +1,37 @@
+.intro
+{
+    margin-left: 5rem;
+}
+
+.intro h1
+{
+    color: rgb(0, 0, 0);
+    font-size:4rem;
+}
+
+.intro p
+{   
+    
+    color: rgb(0, 0, 0);
+    line-height: 7rem;
+    font-size: 1.2rem;
+    font-weight:100;
+}
+
+.intro button
+{
+    background-color: rgb(207, 175, 236);
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+
+}
+
+.intro button:hover
+{
+    letter-spacing: 2px;
+    transition: 0.3s;
+}

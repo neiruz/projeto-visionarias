@@ -1,0 +1,65 @@
+.layoutbackground
+{
+    background-image: url(img/testebanner.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1rem;
+    align-items: center;
+
+}
+
+.logo img
+{ 
+    width: 40px;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1px;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-top: 0.60px;
+}
+
+ul li
+{
+    list-style: none;
+
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+
+.icon ion-icon
+{
+
+    color: rgb(66, 31, 95);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.60px;
+}
+
+ul li a:hover
+{
+    text-transform: capitalize;
+    color: rgb(250, 250, 250);
+    border-bottom: solid 1px;
+}

@@ -1,0 +1,27 @@
+@import "layout.css";
+@import "intro.css";
+
+*
+{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "robot";
+    border: none;
+}
+
+
+html::-webkit-scrollbar
+{
+    width: screm;
+}
+
+html::-webkit-scrollbar-track
+{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background-color: black;
+}
